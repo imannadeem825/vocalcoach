@@ -50,9 +50,9 @@ const Nav = () => {
 
   return (
     <nav className="fixed top-0 w-full bg-[#0a0f1e]/90 backdrop-blur-sm z-50 px-8 py-5 flex justify-between items-center">
-      <span className="font-serif text-white tracking-widest text-lg">
+      <a href="#home" className="font-serif text-white tracking-widest text-lg hover:text-[#6ba3d6] transition-colors duration-300">
         Iman Nadeem
-      </span>
+      </a>
       <ul className="flex gap-8 list-none">
         {links.map(({ label, href, id }) => (
           <li key={id} className="relative">

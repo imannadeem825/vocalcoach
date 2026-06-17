@@ -6,7 +6,7 @@ const Home = () => {
       style={{
         backgroundImage: 'url(/iman-home.jpg)',
         backgroundSize: 'cover',
-        backgroundPosition: 'center 70%',
+        backgroundPosition: 'center 40%',
       }}
     >
 <div className="absolute inset-0 bg-black/50" />

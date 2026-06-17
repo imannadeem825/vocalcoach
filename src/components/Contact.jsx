@@ -14,7 +14,7 @@ const Contact = () => {
 
         <motion.div {...fade(0)}>
           <h2 className="font-serif text-4xl text-white tracking-widest mb-6">
-            Get in Touch
+            Get In Touch
           </h2>
         </motion.div>
 

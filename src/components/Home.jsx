@@ -11,7 +11,7 @@ const Home = () => {
     >
 <div className="absolute inset-0 bg-black/50" />
 
-      <div className="relative z-10 mt-64">
+      <div className="relative z-10 mt-80">
         <h1 className="text-4xl md:text-6xl font-serif text-white tracking-widest mb-4">
           Iman Nadeem
         </h1>

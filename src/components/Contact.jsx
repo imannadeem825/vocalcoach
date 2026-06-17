@@ -11,77 +11,92 @@ const fade = (delay = 0) => ({
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-[#0a0f1e] py-16 md:py-32 px-6">
-      <div className="max-w-3xl mx-auto text-center">
+    <section id="contact" className="bg-[#0a0f1e] border-t border-[#6ba3d6]/30">
+      <div className="flex flex-col md:flex-row items-stretch">
 
-        <motion.div {...fade(0)}>
-          <h2 className="font-serif text-4xl text-white tracking-widest mb-6">
-            Get In Touch
-          </h2>
+        {/* Logo panel */}
+        <motion.div {...fade(0)} className="bg-[#0d1526] md:w-2/5 flex items-center justify-center p-16">
+          <img
+            src="/tricolor-logo-transparent.png"
+            alt="Iman Teaches Voice"
+            className="w-full max-w-sm"
+          />
         </motion.div>
 
-        <motion.div {...fade(0.15)}>
-          <p className="text-gray-400 text-lg leading-relaxed mb-16">
-            Ready to get started or have questions? Reach out, I'd love to hear from you!
-          </p>
+        {/* Contact info panel */}
+        <div className="md:w-3/5 py-16 md:py-32 px-12 flex items-center">
+          <div className="w-full">
 
-          <div className="flex flex-col gap-8 items-center">
+            <motion.div {...fade(0)}>
+              <h2 className="font-serif text-4xl text-white tracking-widest mb-6">
+                Get In Touch
+              </h2>
+            </motion.div>
 
-            <div>
-              <h3 className="text-[#6ba3d6] tracking-widest uppercase text-xs mb-2">
-                Location
-              </h3>
-              <p className="text-gray-400">
-                Milwaukee, WI — Available Remotely Worldwide
+            <motion.div {...fade(0.15)}>
+              <p className="text-gray-400 text-lg leading-relaxed mb-12">
+                Ready to get started or have questions? Reach out, I'd love to hear from you!
               </p>
-            </div>
 
-            <div>
-              <h3 className="text-[#6ba3d6] tracking-widest uppercase text-xs mb-2">
-                Email
-              </h3>
-              <a
-                href="mailto:imanteachesvoice@gmail.com"
-                className="text-white hover:text-[#6ba3d6] transition-colors duration-300 text-lg tracking-wide"
-              >
-                imanteachesvoice@gmail.com
-              </a>
-            </div>
+              <div className="flex flex-col gap-8">
 
-            <div>
-              <h3 className="text-[#6ba3d6] tracking-widest uppercase text-xs mb-4">
-                Find Me
-              </h3>
-              <div className="flex justify-center gap-6">
-                <a
-                  href="https://instagram.com/imanteachesvoice"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-[#6ba3d6] transition-colors duration-300"
-                >
-                  <FaInstagram size={24} />
-                </a>
-                <a
-                  href="https://tiktok.com/@imanteachesvoice"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-[#6ba3d6] transition-colors duration-300"
-                >
-                  <FaTiktok size={24} />
-                </a>
-                <a
-                  href="https://linktr.ee/imanmakesmusic"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-[#6ba3d6] transition-colors duration-300"
-                >
-                  <SiLinktree size={24} />
-                </a>
+                <div>
+                  <h3 className="text-[#6ba3d6] tracking-widest uppercase text-xs mb-2">
+                    Location
+                  </h3>
+                  <p className="text-gray-400">
+                    Milwaukee, WI — Available Remotely Worldwide
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-[#6ba3d6] tracking-widest uppercase text-xs mb-2">
+                    Email
+                  </h3>
+                  <a
+                    href="mailto:imanteachesvoice@gmail.com"
+                    className="text-white hover:text-[#6ba3d6] transition-colors duration-300 text-lg tracking-wide"
+                  >
+                    imanteachesvoice@gmail.com
+                  </a>
+                </div>
+
+                <div>
+                  <h3 className="text-[#6ba3d6] tracking-widest uppercase text-xs mb-4">
+                    Find Me
+                  </h3>
+                  <div className="flex gap-6">
+                    <a
+                      href="https://instagram.com/imanteachesvoice"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-[#6ba3d6] transition-colors duration-300"
+                    >
+                      <FaInstagram size={24} />
+                    </a>
+                    <a
+                      href="https://tiktok.com/@imanteachesvoice"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-[#6ba3d6] transition-colors duration-300"
+                    >
+                      <FaTiktok size={24} />
+                    </a>
+                    <a
+                      href="https://linktr.ee/imanmakesmusic"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-[#6ba3d6] transition-colors duration-300"
+                    >
+                      <SiLinktree size={24} />
+                    </a>
+                  </div>
+                </div>
+
               </div>
-            </div>
-
+            </motion.div>
           </div>
-        </motion.div>
+        </div>
 
       </div>
     </section>

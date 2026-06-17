@@ -19,7 +19,7 @@ const Home = () => {
           Vocal Coach
         </h2>
         <p className="text-gray-400 text-lg mb-10">
-          Based in Milwaukee, WI — available remotely and in person
+          Based in Milwaukee, WI — Available Remotely and In Person
         </p>
         <a
           href="#contact"

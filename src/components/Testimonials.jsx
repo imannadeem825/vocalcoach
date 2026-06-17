@@ -1,7 +1,15 @@
+import { motion } from 'framer-motion'
+
 const Testimonials = () => {
   return (
     <section id="testimonials" className="bg-[#0a0f1e] py-32 px-6">
       <div className="max-w-3xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          viewport={{ once: true }}
+        >
         <h2 className="font-serif text-4xl text-white tracking-widest mb-16 text-center">
           What Students Are Saying
         </h2>
@@ -74,7 +82,7 @@ const Testimonials = () => {
 
           </div>
         </div>
-
+        </motion.div>
       </div>
     </section>
   )

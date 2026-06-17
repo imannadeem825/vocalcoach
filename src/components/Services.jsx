@@ -1,7 +1,15 @@
+import { motion } from 'framer-motion'
+
 const Services = () => {
   return (
     <section id="services" className="bg-[#060912] py-32 px-6">
       <div className="max-w-3xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          viewport={{ once: true }}
+        >
         <h2 className="font-serif text-4xl text-white tracking-widest mb-16 text-center">
           Services
         </h2>
@@ -49,6 +57,7 @@ const Services = () => {
         <p className="text-gray-500 text-lg leading-relaxed mt-16 text-center">
           Available remotely and in person in Milwaukee, WI. Reach out to talk about scheduling and pricing — I'm happy to find something that works for you.
         </p>
+        </motion.div>
       </div>
     </section>
   )

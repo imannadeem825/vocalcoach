@@ -9,7 +9,7 @@ const fade = (delay = 0) => ({
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="bg-[#0a0f1e] pt-6 pb-16 md:py-32 px-6">
+    <section id="testimonials" className="bg-[#0a0f1e] pt-6 pb-16 md:pt-16 md:pb-32 px-6">
       <div className="max-w-5xl mx-auto">
 
         <motion.div {...fade(0)}>
@@ -24,7 +24,7 @@ const Testimonials = () => {
             <div className="w-full md:w-48 md:shrink-0">
               <img src="/andy-cizek-live.jpeg" alt="Andy Cizek" className="w-full h-48 md:h-full object-cover rounded-t-lg md:rounded-t-none md:rounded-l-lg" />
             </div>
-            <blockquote className="bg-[#060912] p-10 flex flex-col justify-center">
+            <blockquote className="bg-[#060912] p-10 flex flex-col justify-center rounded-r-lg">
               <p className="text-gray-400 text-lg leading-relaxed mb-6">
                 "Iman is a masterful singer, fantastic educator and wonderful human being. She has been extremely helpful for colleagues, friends, and myself to problem-solve, tackle vocal obstacles and reach our goals. I highly recommend her guidance for singers of all skill levels!"
               </p>
@@ -38,7 +38,7 @@ const Testimonials = () => {
             <div className="w-full md:w-48 md:shrink-0">
               <img src="/brian-butcher-live.jpg" alt="Brian Butcher" className="w-full h-48 md:h-full object-cover object-[center_25%] rounded-t-lg md:rounded-t-none md:rounded-l-lg" />
             </div>
-            <blockquote className="bg-[#060912] p-10 flex flex-col justify-center">
+            <blockquote className="bg-[#060912] p-10 flex flex-col justify-center rounded-r-lg">
               <p className="text-gray-400 text-lg leading-relaxed mb-6">
                 "I loved working with Iman! She helped me a ton in my preparation to sing a 26 song set with Issues. She's extremely good at catering to any very specific needs of her clients, and she'll be able to sus out any weaknesses you might have just from hearing you perform/sing. I have a lot of faith that pretty much any vocalist would get a lot out of working with her."
               </p>
@@ -52,7 +52,7 @@ const Testimonials = () => {
             <div className="w-full md:w-48 md:shrink-0">
               <img src="/jay-tomasso-live.jpg" alt="Jay Tomasso" className="w-full h-48 md:h-full object-cover object-[center_30%] rounded-t-lg md:rounded-t-none md:rounded-l-lg" />
             </div>
-            <blockquote className="bg-[#060912] p-10 flex flex-col justify-center">
+            <blockquote className="bg-[#060912] p-10 flex flex-col justify-center rounded-r-lg">
               <p className="text-gray-400 text-lg leading-relaxed mb-6">
                 "Lessons with Iman have helped mold me into the singer I want to be. Her welcoming and warm demeanor keeps me feeling relaxed, and her focus on growth lesson to lesson has me surpassing my own expectations. I cannot recommend a better teacher!"
               </p>

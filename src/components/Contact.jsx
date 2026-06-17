@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion'
+import { FaInstagram, FaTiktok } from 'react-icons/fa'
+import { SiLinktree } from 'react-icons/si'
 
 const fade = (delay = 0) => ({
   initial: { opacity: 0, y: 30 },
@@ -39,11 +41,43 @@ const Contact = () => {
                 Email
               </h3>
               <a
-                href="mailto:iman.nadeem.music@gmail.com"
+                href="mailto:imanteachesvoice@gmail.com"
                 className="text-white hover:text-[#6ba3d6] transition-colors duration-300 text-lg tracking-wide"
               >
-                iman.nadeem.music@gmail.com
+                imanteachesvoice@gmail.com
               </a>
+            </div>
+
+            <div>
+              <h3 className="text-[#6ba3d6] tracking-widest uppercase text-xs mb-4">
+                Find Me
+              </h3>
+              <div className="flex justify-center gap-6">
+                <a
+                  href="https://instagram.com/imanteachesvoice"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#6ba3d6] transition-colors duration-300"
+                >
+                  <FaInstagram size={24} />
+                </a>
+                <a
+                  href="https://tiktok.com/@imanteachesvoice"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#6ba3d6] transition-colors duration-300"
+                >
+                  <FaTiktok size={24} />
+                </a>
+                <a
+                  href="https://linktr.ee/imanmakesmusic"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#6ba3d6] transition-colors duration-300"
+                >
+                  <SiLinktree size={24} />
+                </a>
+              </div>
             </div>
 
           </div>

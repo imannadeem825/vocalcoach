@@ -20,9 +20,9 @@ const Testimonials = () => {
 
         <div className="flex flex-col gap-8">
 
-          <motion.div {...fade(0.1)} className="flex items-stretch">
-            <div className="w-48 shrink-0">
-              <img src="/andy-cizek-live.jpeg" alt="Andy Cizek" className="w-full h-full object-cover rounded-l-lg" />
+          <motion.div {...fade(0.1)} className="flex flex-col md:flex-row items-stretch">
+            <div className="w-full md:w-48 md:shrink-0">
+              <img src="/andy-cizek-live.jpeg" alt="Andy Cizek" className="w-full h-48 md:h-full object-cover rounded-t-lg md:rounded-t-none md:rounded-l-lg" />
             </div>
             <blockquote className="bg-[#060912] p-10 flex flex-col justify-center">
               <p className="text-gray-400 text-lg leading-relaxed mb-6">
@@ -34,9 +34,9 @@ const Testimonials = () => {
             </blockquote>
           </motion.div>
 
-          <motion.div {...fade(0.2)} className="flex items-stretch">
-            <div className="w-48 shrink-0">
-              <img src="/brian-butcher-live.jpg" alt="Brian Butcher" className="w-full h-full object-cover rounded-l-lg" />
+          <motion.div {...fade(0.2)} className="flex flex-col md:flex-row items-stretch">
+            <div className="w-full md:w-48 md:shrink-0">
+              <img src="/brian-butcher-live.jpg" alt="Brian Butcher" className="w-full h-48 md:h-full object-cover object-[center_25%] rounded-t-lg md:rounded-t-none md:rounded-l-lg" />
             </div>
             <blockquote className="bg-[#060912] p-10 flex flex-col justify-center">
               <p className="text-gray-400 text-lg leading-relaxed mb-6">
@@ -48,9 +48,9 @@ const Testimonials = () => {
             </blockquote>
           </motion.div>
 
-          <motion.div {...fade(0.3)} className="flex items-stretch">
-            <div className="w-48 shrink-0">
-              <img src="/jay-tomasso-live.jpg" alt="Jay Tomasso" className="w-full h-full object-cover rounded-l-lg" />
+          <motion.div {...fade(0.3)} className="flex flex-col md:flex-row items-stretch">
+            <div className="w-full md:w-48 md:shrink-0">
+              <img src="/jay-tomasso-live.jpg" alt="Jay Tomasso" className="w-full h-48 md:h-full object-cover object-[center_30%] rounded-t-lg md:rounded-t-none md:rounded-l-lg" />
             </div>
             <blockquote className="bg-[#060912] p-10 flex flex-col justify-center">
               <p className="text-gray-400 text-lg leading-relaxed mb-6">

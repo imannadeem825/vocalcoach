@@ -12,7 +12,7 @@ const Home = () => {
 <div className="absolute inset-0 bg-black/50" />
 
       <div className="relative z-10 mt-66">
-        <h1 className="text-6xl font-serif text-white tracking-widest mb-4">
+        <h1 className="text-4xl md:text-6xl font-serif text-white tracking-widest mb-4">
           Iman Nadeem
         </h1>
         <h2 className="text-xl font-sans text-[#6ba3d6] tracking-[0.3em] uppercase mb-8">

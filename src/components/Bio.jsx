@@ -26,7 +26,7 @@ const Bio = () => {
             <img
               src="/iman-bio.jpg"
               alt="Iman Nadeem performing"
-              className="w-full h-full object-cover"
+              className="w-full h-72 md:h-full object-cover object-[center_30%]"
             />
           </div>
           <div className="md:w-1/2 bg-[#060912] p-12">

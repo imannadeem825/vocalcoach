@@ -9,7 +9,7 @@ const fade = (delay = 0) => ({
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-[#0a0f1e] py-32 px-6">
+    <section id="contact" className="bg-[#0a0f1e] py-16 md:py-32 px-6">
       <div className="max-w-3xl mx-auto text-center">
 
         <motion.div {...fade(0)}>

@@ -9,7 +9,7 @@ const fade = (delay = 0) => ({
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="bg-[#0a0f1e] py-32 px-6">
+    <section id="testimonials" className="bg-[#0a0f1e] pt-6 pb-16 md:py-32 px-6">
       <div className="max-w-5xl mx-auto">
 
         <motion.div {...fade(0)}>
@@ -64,7 +64,7 @@ const Testimonials = () => {
 
         </div>
 
-        <motion.div {...fade(0.1)} className="mt-24 text-center">
+        <motion.div {...fade(0.1)} className="mt-12 md:mt-24 text-center">
           <h3 className="font-serif text-2xl text-white tracking-widest mb-8">
             Also Worked With
           </h3>

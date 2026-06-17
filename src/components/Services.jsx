@@ -9,7 +9,7 @@ const fade = (delay = 0) => ({
 
 const Services = () => {
   return (
-    <section id="services" className="bg-[#060912] py-32 px-6">
+    <section id="services" className="bg-[#060912] py-16 md:py-32 px-6">
       <div className="max-w-3xl mx-auto">
 
         <motion.div {...fade(0)}>

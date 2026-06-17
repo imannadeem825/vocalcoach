@@ -9,7 +9,7 @@ const fade = (delay = 0) => ({
 
 const Bio = () => {
   return (
-    <section id="bio" className="bg-[#0a0f1e] py-32 px-6">
+    <section id="bio" className="bg-[#0a0f1e] pt-10 pb-16 md:py-32 px-6">
       <div className="max-w-5xl mx-auto">
 
         <motion.div {...fade(0)}>

@@ -17,7 +17,7 @@ const Contact = () => {
         {/* Logo panel */}
         <motion.div {...fade(0)} className="bg-[#0d1526] md:w-2/5 flex items-center justify-center p-16">
           <img
-            src="/tricolor-logo-transparent.png"
+            src="/tricolor-logo-2.png"
             alt="Iman Teaches Voice"
             className="w-full max-w-sm"
           />

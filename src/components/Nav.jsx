@@ -51,7 +51,7 @@ const Nav = () => {
   return (
     <nav className="fixed top-0 w-full bg-[#0a0f1e]/90 backdrop-blur-sm z-50 px-8 py-3 flex justify-between items-center">
       <a href="#home" className="transition-transform duration-300 hover:scale-110 inline-block">
-        <img src="/tricolor-symbol-transparent.png" alt="Iman Nadeem" className="h-14 w-auto" />
+        <img src="/tricolor-symbol-transparent-2.png" alt="Iman Nadeem" className="h-16 w-auto" />
       </a>
 
       {/* Desktop links */}
